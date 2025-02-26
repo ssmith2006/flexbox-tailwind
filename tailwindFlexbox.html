@@ -7,13 +7,22 @@
   </head>
   <body>
     <header><h1 class="text-3xl font-bold underline">Hello world!</h1></header>
-    <main> <div class="container">
-        <div class="item">Item 1</div>
-        <div class="item">Item 2</div>
-        <div class="item">Item 3</div>
-      </div></main>
+    <main>
+      <div class="container flex flex-col md:flex-row justify-center items-center">
+        <div class="bg-red-300 m-10 p-5">Item 1</div>
+        <div class="bg-purple-300 m-10 p-5">Item 2</div>
+        <div class="bg-blue-300 m-10 p-5">Item 3</div>
+      </div>
+
+      <div class="container flex flex-col md:flex-row justify-center items-center">
+        <div class="bg-red-300 m-10 p-5 order-last">Item 1</div>
+        <div class="bg-purple-300 m-10 p-5 order-none">Item 2</div>
+        <div class="bg-blue-300 m-10 p-5 order-first">Item 3</div>
+      </div>
+
+    </main>
     <footer>
-        <p>Copyright &copy;2025.  FlexBox and Tailwind.</p>
+      <p>Copyright &copy;2025. FlexBox and Tailwind.</p>
     </footer>
   </body>
 </html>
