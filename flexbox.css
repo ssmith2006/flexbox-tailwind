@@ -1,0 +1,15 @@
+.container {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.item {
+  background-color: #2f1746; /* Set a background color for the items */
+  color: white; /* Text color */
+  padding: 20px; /* Space inside each item */
+  margin: 10px; /* Space between the items */
+  text-align: center; /* Center text inside items */
+  font-size: 20px; /* Font size */
+}
+
